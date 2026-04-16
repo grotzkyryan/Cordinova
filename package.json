@@ -1,10 +1,10 @@
 {
   "name": "cordinova",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && opennextjs-cloudflare build",
     "build:worker": "opennextjs-cloudflare build",
     "preview": "opennextjs-cloudflare build && wrangler pages dev",
     "deploy": "opennextjs-cloudflare build && wrangler pages deploy",
