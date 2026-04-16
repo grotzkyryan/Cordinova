@@ -9,6 +9,7 @@
 !.yarn/plugins
 !.yarn/releases
 !.yarn/versions
+.pnp.js
 
 # testing
 /coverage
@@ -28,10 +29,17 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+<<<<<<< HEAD
 .pnpm-debug.log*
 
 # env files (can opt-in for committing if needed)
 .env*
+=======
+
+# local env files
+.env*.local
+.env
+>>>>>>> 129c383431caa7f95d029136f7c37dc85748aac4
 
 # vercel
 .vercel
